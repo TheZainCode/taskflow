@@ -2,6 +2,7 @@ import Input from "./components/ui/Input";
 import Button from "./components/ui/Button";
 import Select from "./components/ui/Select";
 import Badge from "./components/ui/Badge";
+import Card from "./components/ui/Card";
 
 function App(){
   const taskStatusOptions = [
@@ -24,6 +25,7 @@ function App(){
 />
 
 <Badge variant="info" size="md">Zain</Badge>
+<Card padding="lg" title="Zain" description="I Love U 😁" action={<button>Love Him</button>}></Card>
       </div>
   )
 }
