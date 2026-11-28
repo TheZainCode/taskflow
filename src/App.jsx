@@ -1,6 +1,7 @@
 import Input from "./components/ui/Input";
 import Button from "./components/ui/Button";
 import Select from "./components/ui/Select";
+import Badge from "./components/ui/Badge";
 
 function App(){
   const taskStatusOptions = [
@@ -21,6 +22,8 @@ function App(){
         placeholder="Select status..."
         options={taskStatusOptions}
 />
+
+<Badge variant="info" size="md">Zain</Badge>
       </div>
   )
 }
